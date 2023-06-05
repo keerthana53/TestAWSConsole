@@ -1,5 +1,7 @@
 version: 0.0
 os: linux
+- source: \
+    destination: TestConsole
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
